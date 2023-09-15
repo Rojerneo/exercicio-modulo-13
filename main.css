@@ -1,0 +1,20 @@
+body {
+    background-color: whitesmoke;
+}
+
+#carousel img {
+    width: 100%;
+}
+
+.card {
+    margin: 36px 0;
+}
+
+.card img {
+    width: 100%;
+}
+
+.saiba-mais a {
+    text-decoration: none;
+    color: whitesmoke;
+}

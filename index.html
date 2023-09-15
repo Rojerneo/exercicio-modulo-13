@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Módulo 13</title>
+    <link rel="stylesheet" href="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="container">
+        <h1>Viaje com a gente</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div  id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel inner">
+                    <div class="carousel-item active imagem-altura-fixa" data-bs-interval="3000">
+                        <img src="./images/forest-1072828_1280.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h4>Floresta</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item imagem-altura-fixa">
+                        <img src="./images/road-1072823_1280.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h4>Interior</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item imagem-altura-fixa">
+                        <img src="./images/wolves-1341881_1280.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h4>Montanhas</h4>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0">
+                    </button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <header class="card-header">
+                        <h4>Alpes</h4>   
+                    </header>
+                    <div class="card-body">
+                        <img src="./images/alpine-4553488_1280.jpg" alt="">
+                    </div>
+                    <div class="card-footer">
+                        <h5>Escaladas incríveis</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sit ab dolore est vel nemo tempora. Quidem, illo aliquam ipsam explicabo fugiat velit dicta ipsa quaerat neque modi fugit iure?</p>
+                        <button type="button" class="btn btn-success saiba-mais"><a href="#">Saiba Mais...</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <header class="card-header">
+                        <h4>Canyons</h4>   
+                    </header>
+                    <div class="card-body">
+                        <img src="./images/iceland-5816353_1280.jpg" alt="">
+                    </div>
+                    <div class="card-footer">
+                        <h5>Contato com a natureza</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sit ab dolore est vel nemo tempora. Quidem, illo aliquam ipsam explicabo fugiat velit dicta ipsa quaerat neque modi fugit iure?</p>
+                        <button type="button" class="btn btn-success saiba-mais"><a href="#">Saiba Mais...</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <header class="card-header">
+                        <h4>Ilhas</h4>   
+                    </header>
+                    <div class="card-body">
+                        <img src="./images/woman-5779323_1280.jpg" alt="">
+                    </div>
+                    <div class="card-footer">
+                        <h5>Praias Maravilhosas</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sit ab dolore est vel nemo tempora. Quidem, illo aliquam ipsam explicabo fugiat velit dicta ipsa quaerat neque modi fugit iure?</p>
+                        <button type="button" class="btn btn-success saiba-mais"><a href="#">Saiba Mais...</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
